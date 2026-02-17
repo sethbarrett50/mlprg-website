@@ -4,8 +4,6 @@ Static website for the **ML Paper Reading Group** (Augusta University), built wi
 
 URL: https://sethbarrett50.github.io/ml-paper-reading-group-website/
 
-The site is intentionally “data-driven”: most updates (papers, schedule, leadership) are made by editing files under `src/lib/data/` — no page/UI work required for routine content changes.
-
 ---
 
 ## What’s in this repo

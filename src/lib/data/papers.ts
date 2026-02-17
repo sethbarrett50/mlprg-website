@@ -231,5 +231,14 @@ export const PAPERS: Paper[] = [
 		authors: 'XuanLong Nguyen, Martin J. Wainwright, Michael I. Jordan',
 		citation: 'IEEE Transactions on Information Theory, vol. 56, no. 11, pp. 5847–5861, 2010',
 		proposer: 'Dr. Arman Adibi'
+	},
+	{
+		id: 'johnson-kenaz-lbm',
+		title: 'Generalized brain-state modeling with KenazLBM',
+		authors:
+			'Graham W. Johnson, Ghassan S. Makhoul, Derek J. Doss, Bruno Hidalgo Monroy Lerma, Leon Y. Cai, Emily Liao, Danika L. Paulo',
+		citation: 'bioRxiv 2025.08.10.669538, 2025',
+		proposer: 'Seth Barrett',
+		tags: ['Transformers', 'Neuroscience']
 	}
 ];
