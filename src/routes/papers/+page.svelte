@@ -3,9 +3,15 @@
 
 	const papers: ReviewedPaper[] = getReviewedPapers();
 
+	function parseISODateLocal(iso: string): Date {
+		const [date] = iso.split('T');
+		const [y, m, d] = date.split('-').map(Number);
+		return new Date(y, m - 1, d);
+	}
+
 	function fmtDate(iso?: string): string {
 		if (!iso) return '';
-		return new Date(iso).toLocaleDateString(undefined, {
+		return parseISODateLocal(iso).toLocaleDateString(undefined, {
 			year: 'numeric',
 			month: 'short',
 			day: 'numeric'
