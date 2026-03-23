@@ -130,7 +130,7 @@ export const SCHEDULE: Meeting[] = [
 		meetingLabel: 'Meeting 7',
 		date: '2026-04-27',
 		paperTitle: 'TBD',
-		leaders: 'TBD',
+		leaders: 'Dr. Dorai',
 		time: SPRING_TIME,
 		location: HYBRID_LOCATION
 	}
