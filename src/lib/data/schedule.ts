@@ -107,20 +107,11 @@ export const SCHEDULE: Meeting[] = [
 		time: SPRING_TIME,
 		location: HYBRID_LOCATION
 	},
-	// {
-	// 	term: 'Spring 2026',
-	// 	meetingLabel: 'Meeting 6',
-	// 	date: '2026-03-30',
-	// 	paperTitle: 'Paper on Multimodal LLM, detailed paper will be updated later',
-	// 	leaders: 'Dr. Lin Li',
-	// 	time: SPRING_TIME,
-	// 	location: HYBRID_LOCATION
-	// },
 	{
 		term: 'Spring 2026',
 		meetingLabel: 'Meeting 6',
 		date: '2026-04-13',
-		paperTitle: 'Paper on Multimodal LLM, detailed paper will be updated later',
+		paperTitle: 'A Multimodal Automated Interpretability Agent',
 		leaders: 'Dr. Lin Li',
 		time: SPRING_TIME,
 		location: HYBRID_LOCATION
