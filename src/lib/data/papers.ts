@@ -241,7 +241,7 @@ export const PAPERS: Paper[] = [
 		proposer: 'Seth Barrett',
 		tags: ['Transformers', 'Neuroscience']
 	},
-    {
+	{
 		id: 'multimodal-interp-agent',
 		title: 'A Multimodal Automated Interpretability Agent',
 		authors:
@@ -250,13 +250,12 @@ export const PAPERS: Paper[] = [
 		proposer: 'Dr. Lin Li',
 		tags: ['Multimodal', 'Agentic', 'XAI']
 	},
-    {
+	{
 		id: 'chartgpt',
 		title: 'ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language',
-		authors:
-			'Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang',
+		authors: 'Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang',
 		citation: 'IEEE Transactions on Visualization and Computer Graphics 31.3 (2024): 1731-1745.',
 		proposer: 'Scichen Gao',
 		tags: ['Chart', 'LLM']
-	},
+	}
 ];
