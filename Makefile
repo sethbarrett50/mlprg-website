@@ -95,3 +95,6 @@ search: ## Grep the repo: make search PATTERN="..."
 	grep -RIn \
 		--exclude-dir=node_modules --exclude-dir=.svelte-kit --exclude-dir=build --exclude-dir=dist --exclude-dir=.git \
 		-- "$(PATTERN)" src
+
+deps.check: ## Checks dependency usage
+	npx knip
