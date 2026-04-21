@@ -14,6 +14,7 @@
 - [ ] `make lint`
 - [ ] `make check`
 - [ ] `make build`
+- [ ] `make deps.check`
 - [ ] Pages links/routes still work (esp. `/papers` and `/schedule`)
 - [ ] Updated data in `src/lib/data/` if applicable
 
