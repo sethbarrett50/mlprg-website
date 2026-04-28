@@ -1,5 +1,4 @@
 {
 	"$schema": "https://unpkg.com/knip@latest/schema.json",
-	"ignoreDependencies": ["@sveltejs/adapter-auto"],
 	"include": ["dependencies", "devDependencies"]
 }
